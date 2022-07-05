@@ -4,26 +4,51 @@ Adrian Pacholak;
 :icons: font
 :source-highlighter: highlightjs
 
-Sample application demonstrating how to use Spring REST Docs with JUnit 5. For GURU microservices course.
+Sample application demonstrating how to use Spring REST Docs with JUnit 5. For GURU
+microservices course.
 
 `BeerOrderControllerTest` makes a call to a very simple service and produces three
 documentation snippets.
 
+GET SINGLE BEER
+
 One showing how to make a request using cURL:
 
-include::{snippets}/orders/curl-request.adoc[]
+include::{snippets}/v1/beers - get single beer/curl-request.adoc[]
 
 One showing the HTTP request:
 
-include::{snippets}/orders/http-request.adoc[]
+include::{snippets}/v1/beers - get single beer/http-request.adoc[]
 
 And one showing the HTTP response:
 
-include::{snippets}/orders/http-response.adoc[]
+include::{snippets}/v1/beers - get single beer/http-response.adoc[]
 
 Response Body:
-include::{snippets}/orders/response-body.adoc[]
-
+include::{snippets}/v1/beers - get single beer/response-body.adoc[]
 
 Response Fields:
-include::{snippets}/orders/response-fields.adoc[]
+include::{snippets}/v1/beers - get single beer/response-fields.adoc[]
+
+NEW BEER
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/beers - new/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/beers - new/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/beers - new/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/beers - new/response-body.adoc[]
+
+Request Fields
+include::{snippets}/v1/beers - new/request-fields.adoc[]
+
+Response Fields:
+include::{snippets}
